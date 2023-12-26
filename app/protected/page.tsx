@@ -1,14 +1,16 @@
 import React from 'react'
 
-export default function Home() {
+function Protected() {
     return (
-        <div className='min-h-screen w-full flex items-center justify-center'>
-            <a href={process.env.NEXTAUTH_SIGNIN}>
+        <div className='w-full min-h-screen flex items-center justify-center'>
+            <a href={process.env.NEXTAUTH_SIGNOUT}>
                 <button
                     className='bg-blue-500 text-white px-4 py-2 rounded-md'>
-                    Github Signin
+                    Signout
                 </button>
             </a>
         </div>
     )
 }
+
+export default Protected

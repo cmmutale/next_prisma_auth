@@ -36,6 +36,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 # SETTING UP NEXTAUTH
+Install next-auth and checkout the ```.example.env``` and ```.example.env.local```
 
-
-# SETTING UP PRISMA
+# SETTING UP PRISMA & DATABASE
+The defualt of this repos is sqlite, if you want to use a custom database checkout [prisma](https://www.prisma.io/docs/getting-started/quickstart)
